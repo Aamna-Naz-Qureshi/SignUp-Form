@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {
+  background-color: #cbd9dc;
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  margin-left: 80px;
+}
+
+.container {
+  display: flex;
+  width: 1450px;
+  height: 850px;
+  background-color: #f0f8ff;
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 20px 30px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.left-section {
+  border-radius: 8px;
+  background-color: #364cf5;
+  color: white;
+  padding: 0px 50px;
+  padding-top: 70px;
+  padding-bottom: 10px;
+  width: 38%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.left-section h1 {
+  font-size: 10px;
+  letter-spacing: 1px;
+  font-weight: lighter;
+}
+
+.left-section h2 {
+  font-size: 22px;
+  margin: 20px 0 10px;
+  font-weight: lighter;
+}
+
+.left-section p {
+  color: #93a0ca;
+  font-size: 14px;
+}
+
+.testimonial-box {
+  background-color: #241df2;
+  padding: 15px;
+  border-radius: 5px;
+  margin-top: 40px;
+}
+
+.testimonial-box .quote {
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.user img {
+  height: 50px;
+  width: 75px;
+  border-radius: 8px;
+}
+
+.user .role {
+  font-size: 12px;
+  color: #ccc;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.dot {
+  height: 12px;
+  width: 12px;
+  margin: 0 1px;
+  background-color: transparent;
+  border-radius: 50%;
+  display: inline-block;
+  opacity: 1;
+  border: solid 1px white;
+}
+
+.dot.active {
+  opacity: 1;
+  background-color: white;
+}
+
+.right-section {
+  padding: 64px 58px;
+  width: 60%;
+  background-color: #f3faff;
+}
+
+.right-section h2 {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.right-section p {
+  font-size: 12px;
+  margin-bottom: 20px;
+  margin-bottom: 70px;
+}
+.right-section label {
+  font-size: 10px;
+  color: #999898;
+}
+
+.right-section a {
+  color: #2f3cf3;
+  text-decoration: none;
+}
+
+.radio-group {
+  display: flex;
+  gap: 93px;
+  margin: 10px 0 20px;
+}
+
+.radio-group label {
+  border: 2px solid #bab9c4;
+  padding: 11px 115px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  font-size: 14px;
+  color: #000;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+input[type="email"],
+input[type="password"],
+input[type="text"] {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 12px;
+  width: 250px;
+  background-color: #2f3cf3;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 15px;
+  margin-top: 25px;
+}
